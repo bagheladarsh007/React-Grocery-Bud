@@ -103,7 +103,7 @@ function TodoList() {
               <span>{t.text}</span>
             </div>
             <button onClick={() => handleDeleteTask(t.id)} className="delete">
-              Delete
+              ❌
             </button>
           </li>
         ))}
